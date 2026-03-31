@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "date": "2026-03-14",
+    "timestamp": "2026-03-14T23:29:09",
+    "main": 107835,
+    "loan": 1000000,
+    "credit": 0,
+    "description": ""
+  },
+  {
+    "id": "2",
+    "date": "2026-03-15",
+    "timestamp": "2026-03-15T21:59:51",
+    "main": 100000,
+    "loan": 1000000,
+    "credit": 0,
+    "description": "paypayの使用が多い。"
+  },
+  {
+    "id": "3",
+    "date": "2026-03-16",
+    "timestamp": "2026-03-16T17:02:01",
+    "main": 92305,
+    "loan": 1000000,
+    "credit": 0,
+    "description": "駐車料金高すぎる。"
+  },
+  {
+    "id": "4",
+    "date": "2026-03-18",
+    "timestamp": "2026-03-18T03:07:02",
+    "main": 92305,
+    "loan": 1000000,
+    "credit": 0,
+    "description": ""
+  },
+  {
+    "id": "5",
+    "date": "2026-03-23",
+    "timestamp": "2026-03-23T01:15:10.446571",
+    "main": 184549,
+    "loan": 0,
+    "credit": 0,
+    "description": "mf_balance.py 自動取得"
+  },
+  {
+    "id": "6",
+    "date": "2026-03-24",
+    "timestamp": "2026-03-24T00:00:00",
+    "main": 184549,
+    "loan": 1000000,
+    "credit": 0,
+    "description": "loan修正（mf_balance.py取得誤り）"
+  }
+]

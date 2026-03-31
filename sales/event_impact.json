@@ -1,0 +1,260 @@
+{
+  "_comment": "イベント × 売上影響データ。実績が蓄積されると係数が自動更新される。",
+  "_last_updated": "2026-03-24",
+  "venue_impact_rates": {
+    "_comment": "初期値は 2026-03 の 20 日実績から算出。今後サンプルが増えると精度向上。",
+    "K-ARENA": {
+      "evening": 0.0,
+      "afternoon": -0.0051,
+      "_note": "開演 16:00 以前 = afternoon。午後公演は 2026-03-20 に -16.6pp の実績あり（来客流出）"
+    },
+    "PIA-ARENA": {
+      "evening": 0.0039,
+      "afternoon": 0.002,
+      "_note": "乃木坂46(夜)で+17.1pp。最も近接するため影響最大"
+    },
+    "ZEPP_yokohama": {
+      "evening": 0.0034,
+      "afternoon": 0.005,
+      "_note": "小規模会場(2506)だが近接。単独実績: +4.2pp(ニコこれ木曜)"
+    }
+  },
+  "genre_fill_rates": {
+    "idol_handshake": 0.7,
+    "idol_concert": 0.9,
+    "anime_vocal": 0.85,
+    "jpop_concert": 0.88,
+    "dance_comp": 0.8,
+    "tribute_band": 0.65,
+    "talk_show": 0.6,
+    "sports": 0.8,
+    "festival": 0.85,
+    "default": 0.8
+  },
+  "day_of_week_baseline_rate": {
+    "_comment": "イベントなし日の plan 達成率（2026-03 実績）",
+    "月": 93.4,
+    "火": 95.0,
+    "水": 85.6,
+    "木": 103.5,
+    "金": 103.6,
+    "土": 90.0,
+    "日": 108.0
+  },
+  "events": [
+    {
+      "date": "2026-03-01",
+      "venue": "K-ARENA",
+      "event": "MyGO!!!!!×Ave Mujica ツーマンライブ",
+      "start": "17:00",
+      "session": "evening",
+      "rate_pp": 8.7,
+      "yoy": 123.0,
+      "actual_rate": 116.7,
+      "actual_yoy": 123.0
+    },
+    {
+      "date": "2026-03-01",
+      "venue": "PIA-ARENA",
+      "event": "KAF 5th ONE-MAN LIVE",
+      "start": "?",
+      "session": "evening",
+      "rate_pp": 8.7,
+      "yoy": 123.0,
+      "actual_rate": 116.7,
+      "actual_yoy": 123.0
+    },
+    {
+      "date": "2026-03-03",
+      "venue": "PIA-ARENA",
+      "event": "MTV Unplugged: BE:FIRST",
+      "start": "?",
+      "session": "evening",
+      "rate_pp": 0.0,
+      "yoy": 114.7
+    },
+    {
+      "date": "2026-03-07",
+      "venue": "K-ARENA",
+      "event": "CDTVライブ！ライブ！春の大感謝祭2026",
+      "start": "16:30",
+      "session": "evening",
+      "rate_pp": -8.4,
+      "yoy": 122.2,
+      "actual_rate": 81.6,
+      "actual_yoy": 122.2
+    },
+    {
+      "date": "2026-03-08",
+      "venue": "K-ARENA",
+      "event": "CDTVライブ！ライブ！春の大感謝祭2026",
+      "start": "16:30",
+      "session": "evening",
+      "rate_pp": -1.7,
+      "yoy": 131.1,
+      "actual_rate": 106.3,
+      "actual_yoy": 131.1
+    },
+    {
+      "date": "2026-03-10",
+      "venue": "PIA-ARENA",
+      "event": "東北ライブハウス大作戦 2026 LIFE",
+      "start": "?",
+      "session": "evening",
+      "rate_pp": 0.0,
+      "yoy": 112.7
+    },
+    {
+      "date": "2026-03-10",
+      "venue": "ZEPP",
+      "event": "センチミリメンタル WORLD TOUR",
+      "start": "?",
+      "session": "evening",
+      "rate_pp": 0.0,
+      "yoy": 112.7
+    },
+    {
+      "date": "2026-03-11",
+      "venue": "PIA-ARENA",
+      "event": "東北ライブハウス大作戦 2026 LIFE",
+      "start": "?",
+      "session": "evening",
+      "rate_pp": 7.0,
+      "yoy": 96.0
+    },
+    {
+      "date": "2026-03-11",
+      "venue": "ZEPP",
+      "event": "TenTwenty ONE MAN LIVE TOUR",
+      "start": "?",
+      "session": "evening",
+      "rate_pp": 7.0,
+      "yoy": 96.0
+    },
+    {
+      "date": "2026-03-12",
+      "venue": "ZEPP",
+      "event": "ニコこれ vol.17（ゲーム実況）",
+      "start": "?",
+      "session": "evening",
+      "rate_pp": 4.2,
+      "yoy": 90.2
+    },
+    {
+      "date": "2026-03-13",
+      "venue": "K-ARENA",
+      "event": "D.U.N.K. Showcase(ダンス)",
+      "start": "?",
+      "session": "evening",
+      "rate_pp": 2.8,
+      "yoy": 112.6
+    },
+    {
+      "date": "2026-03-14",
+      "venue": "K-ARENA",
+      "event": "D.U.N.K. Showcase(ダンス)",
+      "start": "?",
+      "session": "evening",
+      "rate_pp": 9.0,
+      "yoy": 136.2,
+      "actual_rate": 99.0,
+      "actual_yoy": 136.2
+    },
+    {
+      "date": "2026-03-14",
+      "venue": "ZEPP",
+      "event": "KIM SEJEONG FAN CONCERT",
+      "start": "?",
+      "session": "evening",
+      "rate_pp": 9.0,
+      "yoy": 136.2,
+      "actual_rate": 99.0,
+      "actual_yoy": 136.2
+    },
+    {
+      "date": "2026-03-15",
+      "venue": "K-ARENA",
+      "event": "D.U.N.K. Showcase(ダンス)",
+      "start": "?",
+      "session": "evening",
+      "rate_pp": -9.6,
+      "yoy": 131.6,
+      "actual_rate": 98.4,
+      "actual_yoy": 131.6
+    },
+    {
+      "date": "2026-03-15",
+      "venue": "ZEPP",
+      "event": "ネオロマンス・フェスタ 遙か祭2026",
+      "start": "?",
+      "session": "evening",
+      "rate_pp": -9.6,
+      "yoy": 131.6,
+      "actual_rate": 98.4,
+      "actual_yoy": 131.6
+    },
+    {
+      "date": "2026-03-17",
+      "venue": "PIA-ARENA",
+      "event": "乃木坂46 41stSGアンダーライブ",
+      "start": "?",
+      "session": "evening",
+      "rate_pp": 0.0,
+      "yoy": 154.4
+    },
+    {
+      "date": "2026-03-17",
+      "venue": "ZEPP",
+      "event": "小久保柚乃 生誕ソロライブ",
+      "start": "?",
+      "session": "evening",
+      "rate_pp": 0.0,
+      "yoy": 154.4
+    },
+    {
+      "date": "2026-03-18",
+      "venue": "PIA-ARENA",
+      "event": "乃木坂46 41stSGアンダーライブ",
+      "start": "?",
+      "session": "evening",
+      "rate_pp": 17.1,
+      "yoy": 104.4
+    },
+    {
+      "date": "2026-03-18",
+      "venue": "ZEPP",
+      "event": "ART-SCHOOL TRIBUTE LIVE",
+      "start": "?",
+      "session": "evening",
+      "rate_pp": 17.1,
+      "yoy": 104.4
+    },
+    {
+      "date": "2026-03-19",
+      "venue": "PIA-ARENA",
+      "event": "乃木坂46 41stSGアンダーライブ",
+      "start": "?",
+      "session": "evening",
+      "rate_pp": 11.9,
+      "yoy": 100.0
+    },
+    {
+      "date": "2026-03-20",
+      "venue": "K-ARENA",
+      "event": "未詳イベント",
+      "start": "13:30",
+      "session": "afternoon",
+      "rate_pp": -16.6,
+      "yoy": 129.0
+    },
+    {
+      "date": "2026-03-20",
+      "venue": "ZEPP",
+      "event": "古舘伊知郎 トーキングブルース",
+      "start": "?",
+      "session": "evening",
+      "rate_pp": -16.6,
+      "yoy": 129.0
+    }
+  ]
+}

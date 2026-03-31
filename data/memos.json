@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "text": "【将来依頼】音声ブリーフィングの通勤中再生システム構築\n朝のブリーフィングWAVファイルを通勤中に聞けるようにする。\n例: iCloudから自動でiPhoneに同期→ショートカットで自動再生、またはPodcast/AirPlay連携など。",
+    "category": "開発依頼",
+    "timestamp": "2026-03-20T21:45:00"
+  },
+  {
+    "id": "2",
+    "text": "【将来依頼】メール確認ルーティンの追加\nプライベート（asuka.ctn1@gmail.com）および仕事（asuka.iwanaga@skylark.co.jp）に届いたメールを確認する動作をルーティンに組み込む。\n朝または夕のブリーフィングに未読メールサマリーを追加するイメージ。",
+    "category": "開発依頼",
+    "timestamp": "2026-03-20T21:45:00"
+  },
+  {
+    "id": "3",
+    "text": "【将来依頼】営業データ自動取得システムの構築\n現在スプレッドシートで管理している営業データについて、元データの会社内部サイトから直接データを取得するシステムを構築する。\nスプシへの手動貼り付け作業を自動化・省力化することが目的。",
+    "category": "開発依頼",
+    "timestamp": "2026-03-20T21:45:00"
+  },
+  {
+    "id": "4",
+    "text": "【将来依頼】各ルーティンの詳細内容の確認・整備\n/morning・/evening などの各ルーティンスキルについて、現在の詳細な内容を改めて確認・整理する。\n必要に応じてフローの見直し・追加を行う。",
+    "category": "開発依頼",
+    "timestamp": "2026-03-20T21:45:00"
+  },
+  {
+    "id": "5",
+    "text": "【実装済み】営業データ自動取得システム（2026-03-21 完了）\n\n■ 構成\n- scripts/stx_login.py: STX（社内営業システム）へ Google SAML SSO で自動ログイン。セッションを drafts/stx_storage_state.json に保存。\n- scripts/stx_kanrihyo.py: Playwright でSTX営業管理表を取得し SQLite DB（/LIFE/robco-terminal/data/stx_kanrihyo.db）に保存。--summary フラグでDBから高速表示。\n- morning.md: STEP1に営業データ取得・STEP2に表示セクションを追加済み。\n\n■ DB仕様\n- テーブル: daily_sales\n- 店舗: 018974（GTみなとみらい）\n- 予算: 月次計画対比・曜日合わせ\n- UNIQUE (store_code, date) でupsert\n\n■ 残作業\n- セッション期限切れ時は stx_login.py を再実行する必要あり（手動）\n- 将来的にログイン自動化・定期取得を検討",
+    "category": "開発記録",
+    "timestamp": "2026-03-21T00:00:00"
+  },
+  {
+    "id": "6",
+    "text": "【実装済】Gmail 送信 MCP の追加（2026-03-21 完了）\n\n■ 経緯\nClaude.ai 組み込みの Gmail 統合は下書き作成のみ対応で送信不可。\nローカル MCP サーバーを追加することで送信を自動化できる。\n\n■ 採用パッケージ\n@shinzolabs/gmail-mcp（npm 正式公開・67ツール・send_message/send_draft 対応）\n\n■ 設定済み内容\n- ~/.gmail-mcp/gcp-oauth.keys.json: robco-terminal プロジェクトの OAuth 認証情報\n- ~/.gmail-mcp/credentials.json: 認証済みトークン（2026-03-21 取得）\n- .mcp.json: gmail サーバーを追加済み\n\n■ 次のステップ\n- Claude Code 再起動後に gmail_send_message / gmail_send_draft が使えることを確認\n- morning.md にメール送信ステップを追加\n- cron に /morning を登録して完全自動化",
+    "category": "開発記録",
+    "timestamp": "2026-03-21T00:00:00"
+  }
+]

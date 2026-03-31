@@ -1,0 +1,265 @@
+[meta]
+title = "【2026年版】ガソリン代はこれからどうなる？補助金終了・EV化・原油価格を徹底解説"
+description = """
+ガソリン価格はなぜ高止まりしているのか？
+補助金終了後の見通し、EV化の影響、原油価格の行方を
+わかりやすく解説します。
+
+00:00 オープニング
+01:00 今のガソリン価格はなぜ高い？
+03:30 補助金のしくみと終了の影響
+06:00 原油価格は今後どうなる？
+09:00 EVシフトでガソリンはなくなるのか？
+12:00 まとめ・あなたができる対策
+"""
+tags = ["ガソリン", "ガソリン価格", "原油", "EV", "電気自動車", "補助金", "物価高"]
+thumbnail_text = "ガソリン代\nこれからどうなる？"
+
+# ─── オープニング ──────────────────────────────────────────────────────────────
+
+[[lines]]
+speaker = "reimu"
+scene = "intro"
+text = "みんな、こんにちは。ゆっくり霊夢よ。"
+
+[[lines]]
+speaker = "marisa"
+scene = "intro"
+text = "ゆっくり魔理沙だぜ。今回もよろしくな。"
+
+[[lines]]
+speaker = "reimu"
+scene = "intro"
+text = "今回のテーマは「ガソリン価格は今後どうなるのか」よ。車乗りなら絶対に気になる話ね。"
+
+[[lines]]
+speaker = "marisa"
+scene = "intro"
+text = "最近ガソリン代高すぎて財布が死んでるぜ……。これって補助金が終わったせいなのか？"
+
+[[lines]]
+speaker = "reimu"
+scene = "intro"
+text = "そう、今日はその補助金の話から、原油価格の見通し、EVシフトの影響まで全部まとめて解説するわ。"
+
+# ─── 本編 PART 1: 今のガソリン価格 ─────────────────────────────────────────
+
+[[lines]]
+speaker = "reimu"
+scene = "main"
+text = "まず現状を確認しましょう。2025年、日本のレギュラーガソリンの全国平均価格は1リットルあたり175円前後で推移していたわ。"
+
+[[lines]]
+speaker = "marisa"
+scene = "main"
+text = "175円……。コロナ前は130円台だったのに、随分上がったぜ。"
+
+[[lines]]
+speaker = "reimu"
+scene = "main"
+text = "そうよ。高くなった理由は大きく3つ。「円安」「原油高」「補助金の縮小」ね。"
+
+[[lines]]
+speaker = "marisa"
+scene = "main"
+text = "なるほど。特に円安はずっと続いてるし、原油は海外で決まるから日本にはどうしようもないぜ。"
+
+[[lines]]
+speaker = "reimu"
+scene = "main"
+text = "その通りよ。原油は基本的にドル建てで取引されるから、円安になればなるほど日本では割高になるの。"
+
+# ─── 本編 PART 2: 補助金のしくみ ────────────────────────────────────────────
+
+[[lines]]
+speaker = "reimu"
+scene = "main"
+text = "次に補助金の話よ。政府は2022年から「燃料油価格激変緩和事業」という補助金を石油元売り会社に支給して、ガソリン価格を抑えてきたわ。"
+
+[[lines]]
+speaker = "marisa"
+scene = "main"
+text = "ガソリンスタンドに補助金が入るから、その分だけ安く売れるってことか。"
+
+[[lines]]
+speaker = "reimu"
+scene = "main"
+text = "正解。ピーク時は1リットルあたり約35円もの補助が入っていたの。これがなければ、私たちはもっと高い値段を払っていたはずよ。"
+
+[[lines]]
+speaker = "marisa"
+scene = "main"
+text = "35円って結構でかいぜ……。50リットル入れたら1,750円も違う計算じゃないか。"
+
+[[lines]]
+speaker = "reimu"
+scene = "main"
+text = "そう。そしてこの補助金は段階的に縮小されてきていて、今後の延長・終了は政府の財政判断次第。終了すれば、その分だけ価格は上がるわ。"
+
+[[lines]]
+speaker = "marisa"
+scene = "main"
+text = "正直、ずっと補助金に頼り続けるのも無理がある話だぜな。"
+
+# ─── 本編 PART 3: 原油価格の見通し ──────────────────────────────────────────
+
+[[lines]]
+speaker = "reimu"
+scene = "main"
+text = "次は原油価格の見通しよ。これが一番難しくて、専門家でも意見が割れているわ。"
+
+[[lines]]
+speaker = "marisa"
+scene = "main"
+text = "そりゃそうだぜ。中東情勢とかOPECの動向とか、突然変わるからな。"
+
+[[lines]]
+speaker = "reimu"
+scene = "main"
+text = "ポイントは3つ。「OPECプラスの減産政策」「中国・インドの需要」「アメリカのシェールオイル増産」よ。"
+
+[[lines]]
+speaker = "marisa"
+scene = "main"
+text = "OPECプラスが減産を続けると価格は上がって、アメリカが増産すると下がるってことか？"
+
+[[lines]]
+speaker = "reimu"
+scene = "main"
+text = "大まかに言えばそうね。2024〜2025年はWTI原油がおよそ70〜90ドル台で推移していたわ。大きな地政学リスクがなければ、この水準が続くという見方が多いわ。"
+
+[[lines]]
+speaker = "marisa"
+scene = "main"
+text = "でも中東で何かあればすぐ跳ね上がるんだぜ。2022年みたいにな。"
+
+[[lines]]
+speaker = "reimu"
+scene = "main"
+text = "そうなの。リスクシナリオとして「イランや中東の緊張激化」「OPECの大幅追加減産」があれば100ドル超えも十分あり得るわ。"
+
+[[lines]]
+speaker = "marisa"
+scene = "main"
+text = "逆に下がるシナリオは？"
+
+[[lines]]
+speaker = "reimu"
+scene = "main"
+text = "「世界景気の失速による需要減少」「アメリカの大増産」「EVシフトの加速」ね。ただ今すぐ大幅に下がる可能性は低いとされているわ。"
+
+# ─── 本編 PART 4: EVシフトとガソリンの未来 ──────────────────────────────────
+
+[[lines]]
+speaker = "reimu"
+scene = "main"
+text = "さて、次は長期的な話よ。EV、つまり電気自動車の普及でガソリンはなくなるの？"
+
+[[lines]]
+speaker = "marisa"
+scene = "main"
+text = "ヨーロッパとか中国はEV急増してるっていうけど、日本は遅れてる感じがするぜ。"
+
+[[lines]]
+speaker = "reimu"
+scene = "main"
+text = "実際そうよ。2024年の日本の新車販売に占めるEV比率はまだ数パーセント台で、ヨーロッパや中国の10〜30パーセント台と比べると大きく遅れているわ。"
+
+[[lines]]
+speaker = "marisa"
+scene = "main"
+text = "充電インフラが少ないとか、価格が高いとか、いろんな理由があるんだぜ。"
+
+[[lines]]
+speaker = "reimu"
+scene = "main"
+text = "そう。日本ではHVやPHVが強くて、純粋なEVへの移行は他国より遅い見通しよ。つまり向こう10年はガソリン需要は急激には落ちないと見られているわ。"
+
+[[lines]]
+speaker = "marisa"
+scene = "main"
+text = "じゃあ2030年代になっても、まだガソリン車に乗り続けることになるのか？"
+
+[[lines]]
+speaker = "reimu"
+scene = "main"
+text = "日本ではそうなる可能性が高いわね。ただ2035年以降は新車でのガソリン車販売禁止が議論されているから、長期的には確実に縮小方向よ。"
+
+[[lines]]
+speaker = "marisa"
+scene = "main"
+text = "縮小すると何が起きるんだぜ？需要が減ったら逆に安くなる？"
+
+[[lines]]
+speaker = "reimu"
+scene = "main"
+text = "面白いポイントよ。EV化で需要が減ると、逆に製油所が閉鎖されてガソリンの供給量も減る。需給が均衡すれば価格は維持されるという分析もあるわ。"
+
+[[lines]]
+speaker = "marisa"
+scene = "main"
+text = "なるほど、EV化が進んでもガソリンが一気に安くなるわけじゃないのか。"
+
+# ─── 本編 PART 5: 日本のガソリン税問題 ──────────────────────────────────────
+
+[[lines]]
+speaker = "reimu"
+scene = "main"
+text = "もう一つ重要な話が「税金」よ。日本のガソリン価格のうち、実は約3割が税金なの。"
+
+[[lines]]
+speaker = "marisa"
+scene = "main"
+text = "3割!? それは知らなかったぜ。"
+
+[[lines]]
+speaker = "reimu"
+scene = "main"
+text = "揮発油税が1リットルあたり48.6円、地方揮発油税が5.2円、さらにその合計に消費税がかかる「税金に税金」という構造よ。"
+
+[[lines]]
+speaker = "marisa"
+scene = "main"
+text = "税金に消費税がかかるって、なんか理不尽な気がするぜ……。"
+
+[[lines]]
+speaker = "reimu"
+scene = "main"
+text = "この構造の見直しを求める声は昔からあるけど、道路整備などの財源になっているから簡単には変えられないのよ。"
+
+# ─── まとめ ───────────────────────────────────────────────────────────────────
+
+[[lines]]
+speaker = "reimu"
+scene = "conclusion"
+text = "では今日のまとめよ。ガソリン価格は短期的には「補助金の縮小・終了」と「円安継続」で高止まりが続く可能性が高いわ。"
+
+[[lines]]
+speaker = "marisa"
+scene = "conclusion"
+text = "原油は中東リスクがある限り、大きく下がるとも言い切れないぜ。"
+
+[[lines]]
+speaker = "reimu"
+scene = "conclusion"
+text = "そう。長期的にはEV化で需要は縮小するけど、日本では2030年代半ばまでガソリン車が主流であり続ける見通しよ。"
+
+[[lines]]
+speaker = "marisa"
+scene = "conclusion"
+text = "じゃあ私たちにできることって何だぜ？"
+
+[[lines]]
+speaker = "reimu"
+scene = "conclusion"
+text = "できることは3つ。「ガソリン価格比較アプリで安いスタンドを探す」「エコドライブを心がける」「次の車の乗り換え時にHVやEVを検討する」ね。"
+
+[[lines]]
+speaker = "marisa"
+scene = "conclusion"
+text = "ガソリン代が家計を直撃する時代だから、賢く対策していきたいぜ！"
+
+[[lines]]
+speaker = "reimu"
+scene = "conclusion"
+text = "今日の解説は以上よ。チャンネル登録と高評価もよろしくね。ゆっくりしていってね！"

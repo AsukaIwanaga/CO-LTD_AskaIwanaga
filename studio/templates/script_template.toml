@@ -1,0 +1,51 @@
+# ゆっくり解説台本テンプレート
+# 使い方: このファイルをコピーして script_YYYY-MM-DD_タイトル.toml にリネーム
+
+[meta]
+title = ""           # 動画タイトル（YouTube表示用）
+description = ""     # 動画説明文
+tags = []            # タグ（例: ["すかいらーく", "ファミレス", "飲食業界"]）
+thumbnail_text = ""  # サムネイル大テキスト（例: "すかいらーくの秘密"）
+
+# ─── オープニング ──────────────────────────────────────────────────────────────
+
+[[lines]]
+speaker = "reimu"
+text = "みんな、こんにちは。ゆっくり霊夢よ。"
+scene = "intro"
+
+[[lines]]
+speaker = "marisa"
+text = "ゆっくり魔理沙だぜ。今回もよろしくな。"
+scene = "intro"
+
+[[lines]]
+speaker = "reimu"
+text = "今回のテーマは「」よ。"
+scene = "intro"
+
+[[lines]]
+speaker = "marisa"
+text = "へー、それは気になるぜ！詳しく教えてくれよ。"
+scene = "intro"
+
+# ─── 本編 ─────────────────────────────────────────────────────────────────────
+
+[[lines]]
+speaker = "reimu"
+text = ""
+scene = "main"
+
+# ... 以下、台本に合わせて [[lines]] を追加
+
+# ─── まとめ ───────────────────────────────────────────────────────────────────
+
+[[lines]]
+speaker = "reimu"
+text = "以上が今回のまとめよ。"
+scene = "conclusion"
+
+[[lines]]
+speaker = "marisa"
+text = "なるほど、よくわかったぜ！ゆっくりしていってね！"
+scene = "conclusion"

@@ -1,0 +1,7 @@
+drafts/
+.env
+.mcp.json
+gcp-oauth.keys.json
+scripts/__pycache__/
+scripts/lib/__pycache__/
+**/__pycache__/
